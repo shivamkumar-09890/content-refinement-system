@@ -1,0 +1,65 @@
+# Python-related files
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.pdb
+*.log
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dependency directories
+.env/
+*.env
+
+# Pytest / UnitTest / coverage reports
+*.cover
+*.coverage
+.coverage.*
+nosetests.xml
+test-*.xml
+*.log
+
+# Jupyter Notebook metadata
+.ipynb_checkpoints/
+
+# Configuration files
+config.yaml
+config.json
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Deployment files
+*.bak
+*.swp
+
+# .env file for storing API keys and credentials
+.env
+
+# Generated files
+*.h5
+*.pt
+*.pkl
+
+# Files for dataset (can be large)
+data/
